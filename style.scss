@@ -135,6 +135,56 @@ nav{
     
     
 }
+#heroTextSection{
+    width: 90%;
+    height: 250px;
+    background-color: none;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 10px;
+
+
+    .roundedSudo{
+        width: 60%;
+        height: 80px;
+        background-color: #222222;
+        border-radius: 50px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        
+        h1{
+            font-size: 1.2rem;
+            font-family: var(--bs-generalText);
+            font-weight: 600;
+            color: rgb(185, 185, 255);
+        }
+
+       
+    }
+
+    .nftText{
+        width: 90%;
+        height: 100px;
+        background-color: none;
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+
+
+          h1{
+              font-size: 2rem;
+              max-width: 40rem;
+              font-family: 'Rubik', sans-serif;
+              color: white;
+              span{
+                  font-style: italic;
+              }
+          }
+      }
+}
 //tablet devices
 @media only screen and (min-width: 768px){
     nav{
@@ -230,6 +280,53 @@ nav{
             }
         }
     } 
+    #heroTextSection{
+        width: 80%;
+        height: 250px;
+        background-color: none;
+        margin: auto;
+        margin-top: 10px;
+        padding-top: 10px;
+
+
+        .roundedSudo{
+            width: 40%;
+            height: 80px;
+            background-color: #222222;
+            border-radius: 50px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            
+            h1{
+                font-size: 1.2rem;
+                font-family: var(--bs-generalText);
+                font-weight: 600;
+                color: rgb(185, 185, 255);
+            }
+        }
+
+        .nftText{
+          width: 90%;
+          height: 100px;
+          background-color: none;
+          margin: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+            h1{
+                font-size: 2rem;
+                max-width: 40rem;
+                font-family: 'Rubik', sans-serif;
+                color: white;
+                span{
+                    font-style: italic;
+                }
+            }
+        }
+    }
 }
 
 //laptop
@@ -240,6 +337,9 @@ nav{
         background-color: black;
         display: flex;
         flex-direction: row;
+        padding: 10px;
+        margin-top: 5px;
+
 
         .sudoSwapParentDiv{
             width: 50%;
@@ -384,5 +484,56 @@ nav{
         
     }
 
+    #heroTextSection{
+        width: 70%;
+        height: 400px;
+        background-color: none;
+        margin: auto;
+        margin-top: 100px;
+        padding-top: 10px;
 
+
+        .roundedSudo{
+            width: 30%;
+            height: 80px;
+            background-color: #222222;
+            border-radius: 50px;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            
+            h1{
+                font-size: 2rem;
+                font-family: var(--bs-generalText);
+                font-weight: 600;
+                color: rgb(185, 185, 255);
+            }
+
+            
+        }
+
+
+
+
+        .nftText{
+            width: 60%;
+            height: 200px;
+            background-color: none;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+              h1{
+                  font-size: 4rem;
+                  max-width: 40rem;
+                  font-family: 'Rubik', sans-serif;
+                  color: white;
+                  span{
+                      font-style: italic;
+                  }
+              }
+          }
+    }
 }
