@@ -137,8 +137,8 @@ nav{
 }
 #heroTextSection{
     width: 90%;
-    height: 370px;
-    background-color: none;
+    height: 450px;
+    background-color: purple;
     margin: auto;
     margin-top: 10px;
     padding-top: 10px;
@@ -168,7 +168,7 @@ nav{
     .nftText{
         width: 90%;
         height: 100px;
-        background-color: none ;
+        background-color: red ;
         margin: auto;
         text-align: center;
         padding-top: 20px;
@@ -188,15 +188,15 @@ nav{
 
       .options{
         width: 80%;
-        height: 150px;
-        background-color: none;
+        height: 200px;
+        background-color: green;
         margin: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 10px;
-
+        margin-top: 30px;
         .generalOptions{
             width: 80%;
             height: 40px;
@@ -308,7 +308,7 @@ nav{
     } 
     #heroTextSection{
         width: 80%;
-        height: 250px;
+        height: 300px;
         background-color: none;
         margin: auto;
         margin-top: 10px;
@@ -356,8 +356,9 @@ nav{
         .options{
             width: 90%;
             height: 50px;
-            background-color: none;
+            background-color: blue;
             margin: auto;
+            margin-top: 20px;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -536,8 +537,8 @@ nav{
 
     #heroTextSection{
         width: 70%;
-        height: 400px;
-        background-color: none;
+        height: 500px;
+        background-color: white;
         margin: auto;
         margin-top: 100px;
         padding-top: 10px;
@@ -569,7 +570,7 @@ nav{
 
         .nftText{
             width: 60%;
-            height: 200px;
+            height: 300px;
             background-color: none;
             margin: auto;
             display: flex;
@@ -589,14 +590,15 @@ nav{
 
     .options{
         width: 80%;
-        height: 50px;
-        background-color: none;
+        height: 200px;
         margin: auto;
+        margin-top: 50px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 30px;
+        background-color: orange;
 
         .generalOptions{
             width: 26.6%;
