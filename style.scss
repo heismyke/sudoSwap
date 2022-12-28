@@ -184,6 +184,32 @@ nav{
               }
           }
       }
+
+
+      .options{
+        width: 80%;
+        height: 150px;
+        background-color: none;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        .generalOptions{
+            width: 80%;
+            height: 40px;
+            background-color: #141414;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            font-family: 'Rubik', sans-serif;
+             color: white;
+             border-radius: 10px;
+
+        }
+    }
 }
 //tablet devices
 @media only screen and (min-width: 768px){
@@ -324,6 +350,30 @@ nav{
                 span{
                     font-style: italic;
                 }
+            }
+        }
+
+        .options{
+            width: 90%;
+            height: 50px;
+            background-color: none;
+            margin: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+    
+            .generalOptions{
+                width: 29%;
+                height: 40px;
+                background-color: #141414;
+                display: flex;
+                justify-content: center;
+                align-items: center;    
+                font-family: 'Rubik', sans-serif;
+                 color: white;
+    
             }
         }
     }
@@ -496,7 +546,7 @@ nav{
         .roundedSudo{
             width: 30%;
             height: 80px;
-            background-color: #222222;
+            background-color: #141414;
             border-radius: 50px;
             margin: auto;
             display: flex;
@@ -535,5 +585,30 @@ nav{
                   }
               }
           }
+    }
+
+    .options{
+        width: 80%;
+        height: 50px;
+        background-color: none;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .generalOptions{
+            width: 26.6%;
+            height: 40px;
+            background-color: #141414;
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            font-family: 'Rubik', sans-serif;
+             color: white;
+             
+
+        }
     }
 }
