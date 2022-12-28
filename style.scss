@@ -631,5 +631,23 @@ nav{
         }
     }
 
-    
+   .carousel{
+        width: 70%;
+        height: 200px;
+        background-color: orange;
+        display: flex;
+        overflow-x:auto;
+        margin: auto;
+        overflow-y: hidden;
+      
+    .card{
+      min-width: 250px;
+      height:200px;
+      line-height: 110px;
+      text-align: center;
+      background-color: red;
+      border: 2px solid black;  
+
+    }
+   }
 }
